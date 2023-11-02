@@ -483,16 +483,19 @@ img {
   --_panel-color: rgb(159, 57, 219);
 }
 .accordion-panel:nth-of-type(2) {
-  --_panel-color: hsl(184, 70%, 50%);
+  --_panel-color: hsl(16, 70%, 50%);
+
 }
 .accordion-panel:nth-of-type(3) {
-  --_panel-color: hsl(220, 70%, 50%);
+  --_panel-color: hsl(0, 70%, 50%);
+
 }
 .accordion-panel:nth-of-type(4) {
-  --_panel-color: hsl(350, 70%, 50%);
+  --_panel-color: hsl(220, 70%, 50%);
 }
 .accordion-panel:nth-of-type(5) {
-  --_panel-color: hsl(20, 70%, 50%);
+  --_panel-color: hsl(184, 70%, 50%);
+
 }
 
 .accordion-panel:has([aria-expanded="true"]) {
